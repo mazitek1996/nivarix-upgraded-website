@@ -1,0 +1,32 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --font-inter: 'Inter', sans-serif;
+
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  body {
+    /* padding: 1rem; */
+    font-family: var(--font-inter);
+
+    }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

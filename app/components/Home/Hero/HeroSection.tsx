@@ -89,7 +89,7 @@ export default function HeroSection() {
             <h3 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">Trusted by leading companies</h3>
             <p className="text-neutral-600 dark:text-neutral-400">Join over 5 million people at top companies.</p>
           </div>
-          {/* <div className="flex justify-center mt-4 space-x-4">
+          <div className="flex justify-center mt-4 space-x-4">
             <Image src="/static/icons/Google-Logo.wine.svg" alt="Client 1" width={100} height={40} />
             <Image src="/static/icons/Meta_Platforms-Logo.wine.svg" alt="Client 3" width={100} height={40} />
 
@@ -97,7 +97,7 @@ export default function HeroSection() {
 
             <Image src="/static/icons/Microsoft_Azure-Logo.wine.svg" alt="Client 4" width={100} height={40} />
             <Image src="/static/icons/Netlify-Logo.wine.svg" alt="Client 5" width={100} height={40} />
-          </div> */}
+          </div>
         </div>
         
       </div>

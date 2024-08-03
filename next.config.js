@@ -22,7 +22,8 @@ module.exports = {
       "cdn.ssltrust.com.au",
       "cdnlogo.com",
       "flowbite-react.com",
-      "plus.unsplash.com"
+      "plus.unsplash.com",
+      "framerusercontent.com"
     ],
   },
   pageExtensions: ["jsx", "tsx"],

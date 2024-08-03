@@ -15,9 +15,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+
+      keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+      },
+
       colors: {
         primary: {
-          light: '#a8e6cf', // Eco-friendly light green
+          light: '#fcfcfc', // Eco-friendly light green
           DEFAULT: '#56c596', // Main green tone
           dark: '#028858', // Darker green
         },

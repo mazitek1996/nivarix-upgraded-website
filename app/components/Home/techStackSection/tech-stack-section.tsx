@@ -116,7 +116,7 @@ import {
   FaNodeJs, FaReact, FaPython, FaAws, FaDocker, FaFigma, FaWordpress, FaBootstrap, FaSearchDollar, FaRegSmile, FaSwift, FaApple, FaAndroid 
 } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
-import { SiDjango, SiOpenai, SiNextdotjs, SiTensorflow, SiIbm, SiAdobedreamweaver, SiMongodb, SiJenkins, SiKubernetes, SiFlutter, SiReactnative, SiSketch } from "react-icons/si";
+import { SiDjango, SiOpenai, SiNextdotjs, SiTensorflow, SiIbm, SiAdobedreamweaver, SiMongodb, SiJenkins, SiKubernetes, SiFlutter, SiSketch } from "react-icons/si";
 import { IoIosAnalytics } from "react-icons/io";
 
 export default function TechStackSection() {

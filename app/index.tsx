@@ -8,6 +8,7 @@ import BlogSection from "./components/Home/BlogSection/BlogSection";
 import CallToActionSection from "./components/Home/CallToActionSection/CallToActionSection";
 import TechStackSection from "./components/Home/techStackSection/tech-stack-section"
 import FAQsSection from "./components/Home/FAQs/FAQsSection";
+import NewsletterSection from "./components/Home/new-sletter-section/NewsletterSection";
 export default function IndexHome() {
   return (
     <main>
@@ -25,7 +26,9 @@ export default function IndexHome() {
       <TestimonialsSection/>
 
       <CallToActionSection/>
+      <NewsletterSection/>
 
+      
       </Layout>
 
     </main>

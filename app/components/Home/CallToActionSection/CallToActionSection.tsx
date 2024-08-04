@@ -1,63 +1,77 @@
 
+// "use client";
+// import React from "react";
+// import Image from "next/image";
+// import Link from "next/link";
+// import { FiDownload } from "react-icons/fi";
+
+// export default function CallToActionSection() {
+//   return (
+//     <section className="container mx-auto mb-10 mt-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white py-16 rounded-lg shadow-lg overflow-hidden relative">
+//       <div className="flex flex-col md:flex-row items-center justify-between h-full">
+//         {/* Text Content */}
+//         <div className="md:w-1/2 p-8 z-10">
+//           <h2 className="text-4xl font-bold mb-4">Experience the Future of Technology</h2>
+//           <p className="text-lg mb-8">
+//             Join us on a journey to explore cutting-edge solutions with a 14-day free trial. Experience the seamless integration of our advanced technologies and see the difference for yourself.
+//           </p>
+//           <Link href="/download">
+//             <button className="bg-emerald-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-emerald-600 transition duration-300 transform hover:scale-105 flex items-center gap-2">
+//               Download the App <FiDownload className="text-lg" />
+//             </button>
+//           </Link>
+//         </div>
+        
+//         {/* Image Content */}
+//         <div className="md:w-1/2 relative flex items-end justify-end z-0">
+//           <Image
+//             src="https://framerusercontent.com/images/Czf8gEAwGiNxtXQSLZRZTXxU9Ag.svg"
+//             alt="Desktop Screen"
+//             className="object-contain"
+//             width={600}
+//             height={400}
+//           />
+//         </div>
+//       </div>
+
+//     </section>
+//   );
+// }
+
 
 "use client";
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FiArrowUpRight } from "react-icons/fi";
 
 export default function CallToActionSection() {
   return (
-    <section className="container mx-auto px-4 py-12 bg-primary-light dark:bg-primary-dark">
-      {/* Introduction */}
-      <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">Ready to Get Started?</h2>
-        <p className="text-lg text-neutral-700 dark:text-neutral-300 mt-4">
-          Reach out to our team to learn more about how we can help your business thrive. Contact us today for a consultation or to discuss your project needs.
-        </p>
-      </div>
-
-      {/* Call-to-Actions */}
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-        <Link href="/contact">
-          <p className="inline-block px-8 py-3 rounded-full bg-primary-dark text-white hover:bg-primary-light transition-colors duration-300">
-            Contact Us
+    <section className="container mx-auto mb-10 mt-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white py-16 rounded-lg shadow-lg overflow-hidden relative">
+      <div className="flex flex-col md:flex-row items-center justify-between h-full">
+        {/* Text Content */}
+        <div className="md:w-1/2 p-8 z-10">
+          <h2 className="text-4xl font-bold mb-4">Let's Build Your Vision Together</h2>
+          <p className="text-lg mb-8">
+            We are here to transform your ideas into reality. Contact us today and discover how our innovative solutions can elevate your business. Take the first step towards your digital transformation journey with our expert team.
           </p>
-        </Link>
-        <Link href="/request-quote">
-          <p className="inline-block px-8 py-3 rounded-full bg-primary-dark text-white hover:bg-primary-light transition-colors duration-300">
-            Request a Quote
-          </p>
-        </Link>
-        <Link href="/subscribe">
-          <p className="inline-block px-8 py-3 rounded-full bg-primary-dark text-white hover:bg-primary-light transition-colors duration-300">
-            Subscribe for Updates
-          </p>
-        </Link>
-      </div>
-
-      {/* Contact Information */}
-      <div className="text-center mt-12">
-        <p className="text-neutral-700 dark:text-neutral-300">
-          Or reach us directly at:
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 font-bold mt-2">
-          Email: <a href="mailto:info@nivarix.com" className="underline">info@nivarix.com</a>
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 font-bold">
-          Phone: <a href="tel:+1234567890" className="underline">+1 234 567 890</a>
-        </p>
-      </div>
-
-      {/* Social Media Links */}
-      <div className="flex justify-center mt-6 space-x-6">
-        <a href="https://facebook.com" className="text-neutral-800 dark:text-neutral-200 hover:text-primary-dark">
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://twitter.com" className="text-neutral-800 dark:text-neutral-200 hover:text-primary-dark">
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a href="https://linkedin.com" className="text-neutral-800 dark:text-neutral-200 hover:text-primary-dark">
-          <i className="fab fa-linkedin-in"></i>
-        </a>
+          <Link href="/contact">
+            <button className="bg-emerald-500 text-white py-3 px-6 rounded-full shadow-md hover:bg-emerald-600 transition duration-300 transform hover:scale-105 flex items-center gap-2">
+              Contact Us <FiArrowUpRight className="text-lg transition-transform duration-300 transform group-hover:rotate-45" />
+            </button>
+          </Link>
+        </div>
+        
+        {/* Image Content */}
+        <div className="md:w-1/2 relative flex items-end justify-end z-0">
+          <Image
+            src="https://framerusercontent.com/images/Czf8gEAwGiNxtXQSLZRZTXxU9Ag.svg"
+            alt="Desktop Screen"
+            className="object-contain"
+            width={600}
+            height={400}
+          />
+        </div>
       </div>
     </section>
   );
